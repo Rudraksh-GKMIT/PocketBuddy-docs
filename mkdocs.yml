@@ -1,0 +1,12 @@
+site_name: PocketBuddy
+nav:
+  - Home: index.md
+  - Modules: modules.md
+  - Feature: functional_usecase.md
+  - Business: Business.md
+  - Limitation & Future Scope: Limit_future.md
+theme:
+  name: material
+
+plugins:
+  - mermaid2
