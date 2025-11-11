@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#technical-part-of-pocketbuddy" class="md-skip">
+        <a href="#architecture-diagram" class="md-skip">
           Skip to content
         </a>
       
@@ -329,8 +329,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -362,8 +360,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -527,8 +523,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -561,17 +555,18 @@
 
 
 
-<h1 id="technical-part-of-pocketbuddy">Technical Part of PocketBuddy</h1>
+  <h1>Architecture</h1>
+
 <h2 id="architecture-diagram">Architecture Diagram</h2>
 <p>The AWS architecture of <strong>PocketBuddy</strong> demonstrates how the personal finance management platform is securely deployed and managed within the AWS cloud ecosystem.</p>
 <p>When a <strong>User (Admin or Member)</strong> accesses PocketBuddy via the web or mobile frontend, all HTTP requests are routed through the <strong>AWS infrastructure</strong>, hosted within a <strong>Virtual Private Cloud (VPC)</strong> to ensure isolation, scalability, and security.</p>
 <ul>
 <li><strong>Amazon ECS (Elastic Container Service):</strong> Hosts the frontend and FastAPI backend responsible for managing transactions, analytics, and category-based expenses. ECS auto-scales containers based on traffic.</li>
-<li><strong>Amazon RDS (PostgreSQL):</strong> Stores user accounts, family data, expense transactions, and category details. It ensures high availability, automatic backups, and ACID compliance.y.</li>
+<li><strong>Amazon RDS (PostgreSQL):</strong> Stores user accounts, family data, expense transactions, and category details. It ensures high availability, automatic backups, and ACID compliance.</li>
 <li><strong>Amazon CloudWatch:</strong> Monitors application logs, tracks API performance, and provides real-time insights into ECS and RDS metrics.</li>
 <li><strong>AWS Secrets Manager:</strong> Securely stores database credentials, JWT secrets, and API keys.</li>
 </ul>
-<p>This architecture ensures <strong>security</strong>, <strong>scalability</strong>, and <strong>continuous monitoring</strong>, enabling PocketBuddy to provide a reliable and responsive expenditure for families.</p>
+<p>This architecture ensures <strong>security</strong>, <strong>scalability</strong>, and <strong>continuous monitoring</strong>, enabling PocketBuddy to provide a reliable and responsive expense management experience for families.</p>
 <p><img alt="Architecture diagram" src="../../images/aws_architechture.png" /></p>
 <hr />
 
