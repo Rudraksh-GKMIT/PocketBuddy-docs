@@ -48,7 +48,7 @@ PocketBuddy simplifies this by:
 | Frontend | HTML, CSS, JavaScript | For user interface and chart display |
 | Backend | FastAPI| Handles API requests and database interaction |
 | Database | PostgreSQL | Stores transaction data |
-| Moblie | PWA | Convert the website into a web app for mobile useage |
+| Mobile | PWA | Convert the website into a web app for mobile usage |
 | Authentication | JWT  | Manages user access  |
 
 ---

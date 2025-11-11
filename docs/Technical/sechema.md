@@ -77,7 +77,7 @@ Stores all transactions information.
 
 - `id` - Unique transactions ID
 - `user_id` - Unique user ID which made the transactions
-- `type` - transactions type (e.g., Need, Lucury)
+- `type` - transactions type (e.g., Need, Luxury)
 - `amount` - amount of transaction
 - `description` - transactions details(optional)
 - `created_at ` - Time at which transactions is created 

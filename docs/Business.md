@@ -11,8 +11,8 @@ It’s ideal for individuals who want a **straightforward personal finance tool*
 
 ### Business Objectives
 - Encourage mindful spending habits.  
-- All the family expenses stored colective at one place.
-- Provide a simple digital alternative to rememembering everything.  
+- All the family expenses stored collectively at one place.
+- Provide a simple digital alternative to remembering everything.  
 - Help users visualize and understand their monthly spending patterns.    
 
 ---

@@ -17,25 +17,4 @@ If authentication fails, the backend responds with **HTTP 401 Unauthorized**, ma
 
 This JWT-based stateless authentication ensures that every communication between frontend and backend is **secure**, **verified**, and **role-specific**.
 
-```mermaid
-sequenceDiagram
-  autonumber
-  participant User as User (Admin/Member)
-  participant UI as Frontend
-  participant Backend as FastAPI
-  participant DB as Database (RDS)
-  
-
-  User->>UI: Enter credentials (email, password)
-  UI->>Backend: POST /login {email, password}
-  Backend->>DB: Validate user credentials
-  DB-->>Backend: User verified
-  alt valid credentials
-    Backend->>Backend: Generate JWT (user_id, role, exp)
-    Backend-->>UI: 200 {access_token, token_type}
-    UI-->>User: "Login Successful"
-  else invalid
-    Backend-->>UI: 401 {detail: "Invalid email or password"}
-    UI-->>User: "Login Failed"
-  end
-```
+![Role-based Access ](../images/auth.png)
