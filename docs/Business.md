@@ -1,6 +1,7 @@
 ## Business Use Case
 
 **PocketBuddy** helps users take control of their daily financial activities by allowing them to:
+
 - Add transactions manually anytime.
 - Categorize their spending.
 - Visualize monthly expenses through charts.

@@ -3,6 +3,13 @@ nav:
   - Home: index.md
   - Modules: modules.md
   - Feature: functional_usecase.md
+  - Technical Docs:
+    - Schema Design: Technical/sechema.md
+    - Architecture: Technical/architecture.md
+    - Data Flow Diagram: Technical/data_flow_diagram.md
+    - Technical Stack : Technical/tech_stack.md
+    - Authentication and Authorization: Technical/authentication.md
+    
   - Business: Business.md
   - Limitation & Future Scope: Limit_future.md
 theme:
@@ -10,3 +17,4 @@ theme:
 
 plugins:
   - mermaid2
+  - search

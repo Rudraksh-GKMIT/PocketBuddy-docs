@@ -8,14 +8,12 @@
 - Secure authentication using JWT login.
 
 ### 2. Member Dashboard
-- Members can:
   - Add expenses manually.  
   - Categorize each transaction (Food, Bills, Education, Travel, etc.).  
   - View their individual spending summaries.
   - Edit or delete entries if required. 
 
 ### 3. Family Dashboard (Admin View)
-- Admin can:
   - View total family expenses.  
   - View spending breakdown by category and by member.  
   - Edit or delete member entries if required.  
@@ -35,9 +33,9 @@
 ## Flow Diagram
 ```mermaid
 flowchart TD
-    A[Admin login] --> B[Get there family dashboard]
-    B --> C[Can add/delete Member]
-    C --> D[Admin Genereate the unique Crediential for the Member]
-    D --> E[Member can add/delete a transaction]
-    E --> F[Member can see they overall expencses]
+    A[Admin login] --> B[Load family dashboard]
+    B --> C[Can add/edit/delete Member]
+    C --> D[Admin generate the unique credentials for the Member]
+    D --> E[Member can add/edit/delete a transaction]
+    E --> F[Member can see there overall expenses]
 ```
