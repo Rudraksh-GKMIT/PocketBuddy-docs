@@ -45,7 +45,7 @@ PocketBuddy simplifies this by:
 
 | Layer | Technology | Description |
 |-------|-------------|-------------|
-| Frontend | HTML, CSS, JavaScript | For user interface and chart display |
+| Frontend | HTML, Bootstrap, JavaScript | For user interface  |
 | Backend | FastAPI| Handles API requests and database interaction |
 | Database | PostgreSQL | Stores transaction data |
 | Mobile | PWA | Convert the website into a web app for mobile usage |

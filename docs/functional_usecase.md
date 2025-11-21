@@ -43,6 +43,5 @@
 
 1. Admin opens the “Family Dashboard.”  
 2. System aggregates data from all members.  
-3. Displays graphical reports of category-wise and member-wise spending.  
 
 ---

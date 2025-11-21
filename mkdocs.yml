@@ -9,7 +9,7 @@ nav:
     - Data Flow Diagram: Technical/data_flow_diagram.md
     - Technical Stack : Technical/tech_stack.md
     - Authentication and Authorization: Technical/authentication.md
-    
+  - Test Cases : test/test.md
   - Business: Business.md
   - Limitation & Future Scope: Limit_future.md
 theme:

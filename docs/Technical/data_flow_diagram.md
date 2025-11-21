@@ -25,7 +25,7 @@ In PocketBuddy, the system is composed of five main functional modules, each per
 **Monthly Analysis:**  
 
   - Aggregates and fetches transaction data from the database.  
-  - Performs data summarization and analytics for monthly or category-wise spending.  .
+  - Performs data summarization for monthly or category-wise spending.  .
 
 **Expenses Module:**  
 

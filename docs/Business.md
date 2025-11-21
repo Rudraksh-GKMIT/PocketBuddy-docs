@@ -4,7 +4,6 @@
 
 - Add transactions manually anytime.
 - Categorize their spending.
-- Visualize monthly expenses through charts.
 - Track how much they spend in different areas like food, essentials, and entertainment.
 
 It’s ideal for individuals who want a **straightforward personal finance tool** without connecting to bank accounts or third-party APIs.

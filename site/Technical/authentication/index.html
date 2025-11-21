@@ -12,7 +12,7 @@
         <link rel="prev" href="../tech_stack/">
       
       
-        <link rel="next" href="../../Business/">
+        <link rel="next" href="../../test/test/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -484,6 +484,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../../test/test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Test Cases
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../Business/" class="md-nav__link">
         
   
@@ -590,7 +612,7 @@
 <h2 id="authentication-and-authorization-explanation">Authentication and Authorization Explanation</h2>
 <p>The <strong>Authentication and Authorization</strong> mechanism in PocketBuddy manages secure access across different user roles — <strong>Admin</strong> and <strong>Member</strong>.</p>
 <p>During login, a user provides their credentials (email and password), which are verified via the FastAPI backend. Upon successful validation:
-- A <strong>JWT (JSON Web Token)</strong> is generated containing the user’s <code>user_id</code>, <code>family_id</code>, <code>role</code>, and expiration time.
+- A <strong>JWT (JSON Web Token)</strong> is generated containing the user’s <code>user_id</code>, <code>user_name</code>,<code>family_id</code>, <code>role</code>, and expiration time.
 - The token is sent to the frontend and securely stored (session/local storage).</p>
 <p>For subsequent API calls, this token is attached in the request header and validated by the backend.</p>
 <h3 id="role-based-access-control-rbac">Role-based Access Control (RBAC)</h3>

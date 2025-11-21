@@ -6,7 +6,7 @@
 erDiagram
     users{
         int id PK
-        int family_id FK 
+        varchar family_id FK 
         varchar name
         varchar email
         varchar password_hash 
@@ -22,7 +22,7 @@ erDiagram
         timestamp updated_at
     }
     families {
-        int id PK
+        varchar id PK
         varchar name 
         timestamp created_at 
         timestamp deleted_at 

@@ -5,7 +5,6 @@ Below are the core technologies and tools used in **PocketBuddy**, along with th
 | **Technology / Tool** | **Version** | **Usage in PocketBuddy** | **Reason for Choosing This Version** |
 |------------------------|-------------|---------------------------|--------------------------------------|
 | **HTML5** | 5.2 | Used for structuring the web pages including Login, Dashboard, Analytics, and Transaction views. | HTML5.2 provides semantic structure, accessibility, and native support for responsive layouts and PWA integration. |
-| **CSS3** | 3.0 | For page styling, component layouts, and responsive dashboards. | CSS3 ensures modern styling, animations, and responsive behavior using Flexbox and Grid systems. |
 | **JavaScript (ECMAScript 2022)** | ES13 / 2022 | Manages dynamic dashboard interactions, form validations, and API communications with the FastAPI backend. | ES2022 supports stable async/await, modular imports, and modern browser compatibility for seamless user interaction. |
 | **Bootstrap** | 5.3.3 | Provides consistent, responsive, and mobile-first UI components for the PocketBuddy frontend. | Bootstrap 5.3 is optimized for performance, removes jQuery dependency, and ensures easy theming for dashboards. |
 | **FastAPI** | 0.115.2 | Core backend framework managing authentication, transactions, and analytics APIs. | Latest stable release optimized for async I/O, includes Pydantic v2 support, and ideal for RESTful API design. |
