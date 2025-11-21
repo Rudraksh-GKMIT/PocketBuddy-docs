@@ -583,7 +583,7 @@
 <p>The AWS architecture of <strong>PocketBuddy</strong> demonstrates how the personal finance management platform is securely deployed and managed within the AWS cloud ecosystem.</p>
 <p>When a <strong>User (Admin or Member)</strong> accesses PocketBuddy via the web or mobile frontend, all HTTP requests are routed through the <strong>AWS infrastructure</strong>, hosted within a <strong>Virtual Private Cloud (VPC)</strong> to ensure isolation, scalability, and security.</p>
 <ul>
-<li><strong>Amazon ECS (Elastic Container Service):</strong> Hosts the frontend and FastAPI backend responsible for managing transactions, analytics, and category-based expenses. ECS auto-scales containers based on traffic.</li>
+<li><strong>Amazon ECS (Elastic Container Service):</strong> Hosts the frontend and FastAPI backend. ECS auto-scales containers based on traffic.</li>
 <li><strong>Amazon RDS (PostgreSQL):</strong> Stores user accounts, family data, expense transactions, and category details. It ensures high availability, automatic backups, and ACID compliance.</li>
 </ul>
 <p>This architecture ensures <strong>security</strong>, <strong>scalability</strong>, and <strong>continuous monitoring</strong>, enabling PocketBuddy to provide a reliable and responsive expense management experience for families.</p>

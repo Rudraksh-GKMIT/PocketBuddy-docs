@@ -3,12 +3,6 @@
 ## Project Name
 *PocketBuddy*
 
-## Version History
-
-| Version | Date | Author | Description |
-|----------|------|---------|-------------|
-| 1.0 | Nov 2025 | Rudraksh Sharma| Initial functional documentation |
-
 ## Authors & Reviewers
 
 | Name | Role |
@@ -41,15 +35,4 @@ PocketBuddy simplifies this by:
 - Promoting **financial collaboration and awareness** within the family.
 
 
-## Tech Stack
-
-| Layer | Technology | Description |
-|-------|-------------|-------------|
-| Frontend | HTML, Bootstrap, JavaScript | For user interface  |
-| Backend | FastAPI| Handles API requests and database interaction |
-| Database | PostgreSQL | Stores transaction data |
-| Mobile | PWA | Convert the website into a web app for mobile usage |
-| Authentication | JWT  | Manages user access  |
-
----
 

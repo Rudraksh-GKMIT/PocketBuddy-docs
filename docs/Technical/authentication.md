@@ -11,7 +11,7 @@ For subsequent API calls, this token is attached in the request header and valid
 
 ### Role-based Access Control (RBAC)
 - **Admin:** Can add members, set category, and view all family transactions.
-- **Member:** Can log personal expenses and view only their own reports.
+- **Member:** Can log personal expenses and view only their own summery.
 
 If authentication fails, the backend responds with **HTTP 401 Unauthorized**, maintaining strict access control and data privacy.
 

@@ -9,14 +9,14 @@
 
 ### 2. Member Dashboard
   - Add expenses manually.  
-  - Categorize each transaction (Food, Bills, Education, Travel, etc.).  
+  - Categorize each transaction (Food, Bills, Travel, etc.).  
   - View their individual spending summaries.
   - Edit or delete entries if required. 
 
 ### 3. Family Dashboard (Admin View)
   - View total family expenses.  
   - View spending breakdown by category and by member.  
-  - Edit or delete member entries if required.  
+  - Edit or delete entries if required.  
   - Add or remove family members.  
 <!-- 
 ### 4. Analytics and Reports
@@ -37,5 +37,5 @@ flowchart TD
     B --> C[Can add/edit/delete Member]
     C --> D[Admin generate the unique credentials for the Member]
     D --> E[Member can add/edit/delete a transaction]
-    E --> F[Member can see there overall expenses]
+    E --> F[Member can see there own expenses]
 ```

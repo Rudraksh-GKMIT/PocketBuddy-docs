@@ -7,7 +7,7 @@
 **Description:** The admin creates a family account and initializes the system.  
 **Flow:**
 
-1. Admin registers using basic details (name, email, password).  
+1. Admin registers using basic details (name, email, password, family_name).  
 2. System creates a unique family ID.  
 3. Admin logs in to access the family dashboard.
 

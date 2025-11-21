@@ -5,7 +5,7 @@
 
 erDiagram
     users{
-        int id PK
+        UUID id PK
         varchar family_id FK 
         varchar name
         varchar email
@@ -15,21 +15,21 @@ erDiagram
         timestamp updated_at 
     }
     roles{
-        int id pk
+        UUID id pk
         varchar name
         timestamp created_at 
         timestamp deleted_at 
         timestamp updated_at
     }
     families {
-        varchar id PK
+        UUID id PK
         varchar name 
         timestamp created_at 
         timestamp deleted_at 
         timestamp updated_at 
     }
     transactions {
-        int id PK 
+        UUID id PK 
         int user_id FK 
         varchar type 
         varchar description 
@@ -39,7 +39,7 @@ erDiagram
         timestamp updated_at
     }
     user_roles {
-        int id PK
+        UUID id PK
         int user_id FK
         int role_id FK
         timestamp created_at 
